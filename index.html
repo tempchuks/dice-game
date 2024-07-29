@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="player--0 player active-player">
+        <div class="pstyle">
+          <h1>Player 0</h1>
+          <h1 class="totalscore0 total">0</h1>
+          <div class="current-div">
+            <p>Current</p>
+            <p class="current--0">0</p>
+          </div>
+        </div>
+      </section>
+      <section class="player--1 player">
+        <div class="pstyle">
+          <h1>Player 1</h1>
+          <h1 class="totalscore1 total">0</h1>
+          <div class="current-div">
+            <p>Current</p>
+            <p class="current--1">0</p>
+          </div>
+        </div>
+      </section>
+      <section class="center">
+        <button class="btn btn--new">🔄 New game</button>
+        <div class="imagediv">
+          <img
+            width="100px"
+            height="100px"
+            src="images/dice-1.png"
+            alt="Playing dice"
+            class="dice hidden"
+          />
+        </div>
+        <button class="btn btn--roll">🎲 Roll dice</button>
+        <button class="btn btn--hold">📥 Hold</button>
+      </section>
+    </main>
+    <script src="src/index.js"></script>
+  </body>
+</html>
